@@ -17,8 +17,8 @@ ul, ol {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,17;
-    letter-spacing: 0,03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -28,8 +28,8 @@ ul, ol {
 .nav-link { color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
-    letter-spacing: 0,02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -59,7 +59,6 @@ ul, ol {
     overflow: hidden;
     position: absolute;
     white-space: nowrap;
-    width: 1px;
 }
 .hero {
     background: #2e2f42;
@@ -81,6 +80,11 @@ ul, ol {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    background-color: #4D5AE5
+}
+.hero-btn-main:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
 }
 
 .features {
@@ -108,6 +112,7 @@ ul, ol {
 }
 
 .taste { 
+    background-color: #F4F4FD
     
 }
 
@@ -118,9 +123,11 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.taste-list {
+.taste-list { 
+    background-color: #FFFFFF
 }
 
 .taste-item {
@@ -158,6 +165,7 @@ ul, ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .tastee-list {
@@ -189,10 +197,11 @@ ul, ol {
     background: #2e2f42;
 }
 
-.logoo { 
+.logoo {  
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
