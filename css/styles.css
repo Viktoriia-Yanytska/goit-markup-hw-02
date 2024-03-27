@@ -57,7 +57,6 @@ ul, ol {
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
-    position: absolute;
     white-space: nowrap;
 }
 .hero {
@@ -83,7 +82,7 @@ ul, ol {
     background-color: #4D5AE5
 }
 .hero-btn-main:hover,
-.hero-btn:focus {
+.hero-btn-main:focus {
     background-color: #404BBF;
 }
 
@@ -127,7 +126,7 @@ ul, ol {
 }
 
 .taste-list { 
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .taste-item {
