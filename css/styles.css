@@ -3,12 +3,15 @@ body {
     color: #434455;
     background-color: #fff;
 }
+
 a {
     text-decoration: none;
 }
+
 ul, ol {
     list-style: none;
 }
+
 .logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -18,28 +21,193 @@ ul, ol {
     letter-spacing: 0,03em;
     text-transform: uppercase;
 }
+
 .logo-part { color: #2E2F42;
 }
+
 .nav-link { color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1,5;
     letter-spacing: 0,02em;
 }
+
 .nav-link:hover,
 .nav-link:focus {
     color: #404BBF;
 }
+
 .address {
     font-style: normal;
 }
+
 .address-link { color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .address-link:hover,
 .address-link:focus {
     color: #404BBF;
 }
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+.hero {
+    background: #2e2f42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-btn-main {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.features {
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.features-item-title {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.taste { 
+    
+}
+
+.taste-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.taste-list {
+}
+
+.taste-item {
+}
+
+.taste-image {
+}
+
+.taste-subtitle { 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    
+}
+
+.taste-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   text-align: center;
+   color: #434455;
+}
+
+.tastee {
+}
+
+.tastee-title { 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.tastee-list {
+}
+
+.tastee-item {
+}
+
+.tastee-image {
+}
+
+.tastee-subtitle { 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.tastee-text { 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer { 
+    background: #2e2f42;
+}
+
+.logoo { 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logoo-part {
+    color: #f4f4fd;
+}
+
+.footer-text { 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
 
