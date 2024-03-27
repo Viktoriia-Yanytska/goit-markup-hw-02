@@ -55,7 +55,6 @@ ul, ol {
 .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    height: 1px;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -79,7 +78,7 @@ ul, ol {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
-    background-color: #4D5AE5
+    background-color: #4D5AE5;
 }
 .hero-btn-main:hover,
 .hero-btn-main:focus {
@@ -111,7 +110,7 @@ ul, ol {
 }
 
 .taste { 
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
     
 }
 
